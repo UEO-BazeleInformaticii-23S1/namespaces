@@ -1,4 +1,4 @@
-﻿namespace NamespacesExamples.ThreeD
+﻿namespace ThreeDLibrary
 {
     public class Point
     {

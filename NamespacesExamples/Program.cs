@@ -1,5 +1,5 @@
-﻿//using NamespacesExamples.TwoD;
-//using NamespacesExamples.ThreeD;
+﻿using twoD = NamespacesExamples.TwoD;
+using threeD = ThreeDLibrary;
 
 namespace NamespacesExamples
 {
@@ -7,11 +7,11 @@ namespace NamespacesExamples
     {
         static void Main(string[] args)
         {
-            TwoD.Point p2D = new TwoD.Point();
+            twoD::Point p2D = new twoD::Point();
             p2D.X = 100;
             p2D.Y = 200;
 
-            ThreeD.Point p3D = new ThreeD.Point();
+            threeD.Point p3D = new threeD.Point();
             p3D.X = 100;
             p3D.Y = 200;
             p3D.Z = 300;
